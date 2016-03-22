@@ -15,11 +15,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<nav class="navbar navbar-inverse">
 <ul class="nav nav-tabs">
   <li role="presentation" class="active"><a href="#">Home</a></li>
   <li role="presentation"><%= link_to 'pag1',pags_pag1_path %></li>
   <li role="presentation"><%= link_to 'pag2',pags_pag2_path %></li>
 </ul>
+</nav>
 <%= yield %>
 
 </body>
